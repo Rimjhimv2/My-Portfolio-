@@ -1,71 +1,75 @@
-🚀 Rimjhim’s Digital Portfolio
+# 🚀 Rimjhim’s Digital Portfolio
 
-Welcome to my corner of the internet 👋
-A thoughtfully crafted React-based digital portfolio that blends retro aesthetics with modern web engineering. Designed to feel nostalgic, built to perform like today.
+Welcome to my corner of the internet 👋  
+A thoughtfully crafted **React-based digital portfolio** that blends retro aesthetics with modern web engineering.  
+Designed to feel nostalgic, built to perform like today.
 
-This space reflects not just what I build — but how I think, design, and ship scalable applications.
+This space reflects not just what I build — but **how I think, design, and ship scalable applications**.
 
-✨ What Makes This Portfolio Stand Out
-🖋 Retro-Inspired Experience
+---
 
-A clean, typewriter-style aesthetic that adds character while keeping the focus on content.
+## ✨ What Makes This Portfolio Stand Out
 
-🎨 Minimal, Purposeful Design
+- 🖋 **Retro-Inspired Experience**  
+  A clean, typewriter-style aesthetic that adds character while keeping the focus on content.
 
-Every element serves a reason — simple, elegant, and distraction-free.
+- 🎨 **Minimal, Purposeful Design**  
+  Every element serves a reason — simple, elegant, and distraction-free.
 
-📱 Fully Responsive
+- 📱 **Fully Responsive**  
+  Seamlessly adapts across devices, from mobile screens to large desktops.
 
-Seamlessly adapts across devices, from mobile screens to large desktops.
+- ⚛️ **Built with React**  
+  Component-driven architecture using modern hooks and best practices for clean, reusable, and maintainable code.
 
-⚛️ Built with React
+- ⚡ **Performance-First Build**  
+  Optimized rendering, smooth transitions, and fast interactions for an excellent user experience.
 
-Component-driven architecture using React with modern hooks and best practices for clean, reusable, and maintainable code.
+- 🧠 **Developer-Centric Stack**  
+  Built using **React, TypeScript, and Tailwind CSS** for scalability, maintainability, and a smooth developer experience.
 
-⚡ Performance-First Build
+---
 
-Optimized rendering, smooth transitions, and fast interactions for an excellent user experience.
+## 🗂️ What You’ll Find Inside
 
-🧠 Developer-Centric Stack
+- 👋 **Introduction**  
+  A personal overview highlighting my journey, mindset, and passion for building impactful products.
 
-Built using React, TypeScript, and Tailwind CSS for scalability, maintainability, and a smooth developer experience.
+- 💻 **Tech Stack**  
+  Languages, frameworks, and tools I actively use — and continuously improve with.
 
-🗂️ What You’ll Find Inside
-👋 Introduction
+- 🛠 **Skills & Expertise**  
+  Frontend, backend, and full-stack capabilities presented clearly and concisely.
 
-A personal overview highlighting my journey, mindset, and passion for building impactful products.
+- 💼 **Education & Experience**  
+  My academic background and growth as a developer.
 
-💻 Tech Stack
+- 🎯 **Projects Showcase**  
+  Real-world React and full-stack projects demonstrating clean architecture, performance, and usability.
 
-Languages, frameworks, and tools I actively use — and continuously improve with.
+- 🏆 **Certifications**  
+  Verified credentials showcasing continuous learning and specialization.
 
-🛠 Skills & Expertise
+- 🌟 **Achievements**  
+  Key milestones that reflect dedication, curiosity, and consistency.
 
-Frontend, backend, and full-stack capabilities presented clearly and concisely.
+---
 
-💼 Education & Experience
+## 🤍 Final Note
 
-My academic background and growth as a developer.
-
-🎯 Projects Showcase
-
-Real-world React and full-stack projects demonstrating clean architecture, performance, and usability.
-
-🏆 Certifications
-
-Verified credentials showcasing continuous learning and specialization.
-
-🌟 Achievements
-
-Key milestones that reflect dedication, curiosity, and consistency.
-
-🤍 Final Note
-
-This portfolio isn’t just a collection of sections —
-it’s a snapshot of my learning journey, problem-solving mindset, and passion for building meaningful software with React.
+This portfolio isn’t just a collection of sections —  
+it’s a snapshot of my **learning journey, problem-solving mindset, and passion for building meaningful software with React**.
 
 Let’s connect and build something impactful together 🚀
-## Getting Started
+
+---
+
+## ⚙️ Getting Started
+
+```bash
+npm install
+npm run dev
+
 
 First, run the development server:
 

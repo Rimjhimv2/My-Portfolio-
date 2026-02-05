@@ -1,0 +1,29 @@
+[
+{
+    "id": 5,
+    "type": "fulltime",
+    "position": "Full Stack Developer",
+    "company": "ByteEdu",
+    "duration": "Dec 2024 - July 2025",
+    "status": "Completed",
+   "description": [
+    "Developed and maintained the company’s main website using React.js, Node.js, and MongoDB.",
+    "Optimized page load time by 40% through code splitting and lazy loading.",
+    "Built NGO management website with authentication and dynamic dashboards.",
+    "Created reusable UI components improving UX consistency,reducing user navigation time .",
+    "Collaborated with designers and backend team to integrate REST APIs and ensure smooth data flow.",
+    "Implemented secure authentication and form validations,improving data reliability and security.",
+    "Fixed bugs and improved cross-browser compatibility for better accessibility.",
+    "Followed Git-based version control and Agile practices for faster feature delivery"
+  ],
+    "technologies": [
+        "React.js",
+        "Bootstrap",
+        "JavaScript",
+        "Tailwind CSS",
+        "GitHub",
+        "MongoDB",
+        "Node.js"
+    ]
+}
+]

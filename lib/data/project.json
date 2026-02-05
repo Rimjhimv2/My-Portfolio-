@@ -1,0 +1,143 @@
+[
+    {
+        "title": "ReactChess",
+        "description": "React Chess is a comprehensive chess application developed using the MERN stack (MongoDB, Express, React, Node.js). This project showcases full-stack development skills and modern web technologies to create an engaging and interactive chess platform.Key features include dynamic chess gameplay with accurate move validation, Stockfish integration for AI-driven opponent play, user authentication and profiles with game history and stats, real-time game updates, an intuitive and responsive React-based UI, backend and database management using Node.js, Express, and MongoDB, and additional enhancements like audio effects for moves, captures, and check/checkmate.",
+         "key_features": [
+  "AI-powered semantic matching based on goals, interests, and learning styles",
+  "Community-based learning with goal and progress tracking",
+  "Real-time chat with matched learning partners",
+  "AI-generated conversation summaries with action items",
+  "Secure authentication with protected routes",
+  "FREE and PRO subscription tiers",
+  "Responsive design for mobile and desktop",
+  "Dark and Light theme support",
+  "Smooth UI animations using Framer Motion",
+  "Optimized performance with caching and batch queries",
+  "Duplicate match prevention and smart match optimization",
+  "Tag-based goal categorization and filtering"
+],
+
+        
+        "technologies": [
+            "React.js",
+            "Node.js",
+            "Tailwind CSS",
+            "Express.js",
+            "MongoDB",
+            "Socket.IO",
+            "Chess.js",
+            "ChessBoard.js",
+            "JWT"
+        ],
+        "image": "/images/chess.jpg",
+    
+        "liveLink":"https://react-chess-rho.vercel.app",
+         "githubLink": "https://github.com/Rimjhimv2/ReactChess",
+        "slug": "reactChess"
+    },
+    {
+        "title": "meetsy-app",
+        "description": "Meetsy is an AI-powered community learning platform designed to help learners find compatible study partners and achieve their goals together. Instead of relying on basic keyword matching, Meetsy uses intelligent semantic matching to connect users based on their learning goals, interests, and study styles.The platform enables learners to collaborate inside focused communities, track progress, and communicate in real time. With AI-generated insights and summaries, Meetsy helps users turn conversations into actionable learning outcomes. Built with a modern full-stack architecture, the platform is optimized for performance, scalability, and a smooth user experience.",
+       "key_features": [
+  "AI-powered semantic matching based on goals, interests, and learning intent",
+  "Community-based learning with focused groups and shared objectives",
+  "Real-time chat with matched learning partners",
+  "AI-generated conversation summaries with key insights and action items",
+  "Goal and progress tracking with milestones",
+  "Secure authentication with protected routes",
+  "FREE and PRO subscription tiers",
+  "Fully responsive modern UI with dark and light mode support",
+  "Performance optimized using caching, batch queries, and duplicate match prevention",
+  "Production-ready, scalable full-stack architecture"
+],
+
+
+
+       "technologies": [
+  "Next.js 16",
+  "React 19",
+  "TypeScript",
+  "Tailwind CSS 4",
+  "shadcn/ui",
+  "Radix UI",
+  "Clerk Authentication",
+  "PostgreSQL",
+  "Drizzle ORM",
+  "Zod",
+  "TanStack React Query",
+  "Hono",
+  "Framer Motion"
+],
+
+        "image": "/images/meetsy.jpg",
+        "liveLink":"https://meetsy-app-nu.vercel.app",
+        "githubLink": "https://github.com/Rimjhimv2/meetsy-app",
+        "slug": "meetsy"
+    },
+    {
+        "title": "Stock Trading DashBoard",
+        "description": "Zerodha Clone is a full-stack stock trading simulation platform inspired by Zerodha, India’s leading discount stockbroker. The project replicates essential features of a modern trading platform, allowing users to register securely, manage portfolios, place simulated buy and sell orders, and track transactions in real time. It is designed to demonstrate how large-scale financial platforms work while focusing on performance, security, and clean architecture.",
+
+"key_features": [
+  "Secure user registration and login using JWT authentication",
+  "Real-time portfolio and market dashboard",
+  "Simulated buy and sell order placement",
+  "Transaction history and order tracking",
+  "Password hashing and secure session management",
+  "Responsive and intuitive user interface",
+  "Clean RESTful APIs following MVC architecture",
+  "Scalable backend structure for financial applications",
+  "Real-world inspired trading workflows",
+  "Production-ready full-stack implementation"
+],
+
+      "technologies": [
+  "React.js",
+  "Next.js",
+  "Tailwind CSS",
+  "Bootstrap",
+  "Node.js",
+  "Express.js",
+  "MongoDB",
+  "Mongoose",
+  "JWT Authentication",
+  "bcrypt.js",
+
+  "RESTful APIs",
+ 
+  "Postman",
+  "Git",
+  "GitHub",
+  "Dotenv"
+  
+],
+
+        "image": "/images/trading.jpg",
+        "liveLink": "https://zerodha-clone-coral.vercel.app",
+        "githubLink": "https://github.com/Rimjhimv2/Zerodha-Clone",
+        "slug": "trading"
+    },
+    {
+        "title": "Vintage Mac Portfolio",
+       "description": "A retro-inspired interactive portfolio that recreates the classic Macintosh System 7 / Mac OS 9 desktop experience using modern web technologies. This project blends nostalgic UI aesthetics with smooth animations, draggable windows, and responsive interactions—bringing a vintage operating system feel to the modern web while maintaining performance and accessibility.",
+
+  "key_features": [
+    "Classic Mac Desktop UI with vintage menu bar, draggable windows, desktop icons, and system-style interactions",
+    "Modern visual enhancements including smooth animations, subtle motion effects, and a translucent dock",
+    "Interactive widgets such as profile and status panels embedded within the desktop environment",
+    "Custom intro screen inspired by classic Mac boot animations with a minimal nostalgic loading experience",
+    "Fully responsive and performant design optimized for desktop and mobile devices"
+  ],
+        "technologies": [
+            "Next.js",
+            "TypeScript",
+            "LangChain",
+            "Tailwind CSS",
+            "Lucide React Icons"
+        ],
+        "image": "/images/vintage.jpg",
+        "liveLink": "https://retro-portfolio-zbs7.vercel.app/",
+        "githubLink": "https://github.com/Rimjhimv2/retro-portfolio",
+        "slug": "vintage"
+    }
+]

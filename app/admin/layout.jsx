@@ -17,7 +17,7 @@ import {
 } from "@/components/ui/sidebar"
 
 import { Home, FileText, MessageSquare } from "lucide-react"
-import LogoutButton from "@/components/LogoutButton"
+
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 
@@ -67,7 +67,7 @@ export default function AdminLayout({ children }) {
           </SidebarContent>
 
           <SidebarFooter className="border-t border-sidebar-border">
-            <LogoutButton />
+            {/* <LogoutButton /> */}
           </SidebarFooter>
         </Sidebar>
 

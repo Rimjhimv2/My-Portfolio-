@@ -60,7 +60,7 @@ function Home() {
             </div>
 
             {/* Right Column: Profile Image */}
-            <div className="relative order-1 lg:order-2 flex justify-center lg:justify-end items-center">
+            {/* <div className="relative order-1 lg:order-2 flex justify-center lg:justify-end items-center">
               <div
                 className="glass-card relative w-72 h-72 sm:w-96 sm:h-96 lg:w-[500px] lg:h-[500px] flex justify-center items-center p-4"
                 style={{
@@ -75,8 +75,38 @@ function Home() {
                   className="relative z-10 w-full h-full object-contain drop-shadow-2xl"
                   loading="eager"
                 />
+             
               </div>
-            </div>
+            </div> */}
+            {/* Right Column: Profile Image */}
+<div className="relative order-1 lg:order-2 flex justify-center lg:justify-end items-center">
+  <div
+    className="
+      glass-card
+      relative
+      w-72 h-72
+      sm:w-96 sm:h-96
+      lg:w-[500px] lg:h-[500px]
+      rounded-full
+      overflow-hidden
+      flex justify-center items-center
+    "
+  >
+    {/* Glow */}
+    <div className="absolute inset-0 flex justify-center items-center">
+      <div className="w-[60%] h-[60%] bg-blue-500/20 rounded-full blur-[80px] animate-float"></div>
+    </div>
+
+    {/* Image */}
+    <img
+      src="/profileImage.png"
+      alt="Rimjhim"
+      className="relative z-10 w-full h-full object-cover rounded-full"
+      loading="eager"
+    />
+  </div>
+</div>
+
 
           </div>
         </Container>

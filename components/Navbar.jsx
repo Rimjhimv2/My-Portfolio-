@@ -61,7 +61,7 @@ function Navbar({ menuOpen, setMenuOpen }) {
                         href="/"
                         className="text-xl font-semibold tracking-wide bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent hover:opacity-90 transition-all cursor-pointer"
                     >
-                        Get in Touch
+                        Rimjhim Verma
                     </Link>
 
                     {/* Desktop Nav */}

@@ -64,7 +64,7 @@ function Contact() {
                         {/* Contact Info */}
                         <div className="space-y-8">
                             <div className="glass-card p-8">
-                                <h3 className="text-xl font-bold text-white mb-4">Let's Connect</h3>
+                                <h3 className="text-xl font-bold text-white mb-4">Get in Touch</h3>
                                 <p className="text-gray-300 text-base leading-relaxed mb-6">
                                    Always excited about new opportunities and collaborations. 
                                    Reach out anytime — I’ll respond as soon as I can!

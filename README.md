@@ -1,7 +1,7 @@
 # 🚀 Rimjhim’s Digital Portfolio
 
 Welcome to my corner of the internet 👋  
-A thoughtfully crafted **React-based digital portfolio** that blends retro aesthetics with modern web engineering.  
+A thoughtfully crafted **Nextjs-based digital portfolio** that blends retro aesthetics with modern web engineering.  
 Designed to feel nostalgic, built to perform like today.
 
 This space reflects not just what I build — but **how I think, design, and ship scalable applications**.
@@ -26,7 +26,7 @@ This space reflects not just what I build — but **how I think, design, and shi
   Optimized rendering, smooth transitions, and fast interactions for an excellent user experience.
 
 - 🧠 **Developer-Centric Stack**  
-  Built using **React, TypeScript, and Tailwind CSS** for scalability, maintainability, and a smooth developer experience.
+  Built using **Next.js , JavaScript, and Tailwind CSS** for scalability, maintainability, and a smooth developer experience.
 
 ---
 
@@ -45,7 +45,7 @@ This space reflects not just what I build — but **how I think, design, and shi
   My academic background and growth as a developer.
 
 - 🎯 **Projects Showcase**  
-  Real-world React and full-stack projects demonstrating clean architecture, performance, and usability.
+  Real-world Next.js and full-stack projects demonstrating clean architecture, performance, and usability.
 
 - 🏆 **Certifications**  
   Verified credentials showcasing continuous learning and specialization.

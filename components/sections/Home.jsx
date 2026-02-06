@@ -62,9 +62,10 @@ function Home() {
             {/* Right Column: Profile Image */}
             <div className="relative order-1 lg:order-2 flex justify-center lg:justify-end items-center">
               <div
-                className="glass-card relative w-80 h-80 
-sm:w-[420px] sm:h-[420px] 
-lg:w-[560px] lg:h-[560px]
+                className="glass-card relative w-72 h-72
+sm:w-[400px] sm:h-[400px]
+lg:w-[520px] lg:h-[520px]
+
  flex justify-center items-center p-4"
                 style={{
                   maskImage: "linear-gradient(to bottom, black 85%, transparent 100%)",

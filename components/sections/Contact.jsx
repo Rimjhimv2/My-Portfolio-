@@ -97,7 +97,7 @@ function Contact() {
 
                             {/* Socials */}
                             <div className="glass-card p-8">
-                                <h3 className="text-xl font-bold text-white mb-4">Follow Me</h3>
+                                <h3 className="text-xl font-bold text-white mb-4">Let’s Connect</h3>
                                 <div className="flex gap-4">
                                     {socialLinks.map((social) => (
                                         <a

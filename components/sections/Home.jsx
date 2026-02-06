@@ -62,7 +62,10 @@ function Home() {
             {/* Right Column: Profile Image */}
             <div className="relative order-1 lg:order-2 flex justify-center lg:justify-end items-center">
               <div
-                className="glass-card relative w-72 h-72 sm:w-96 sm:h-96 lg:w-[500px] lg:h-[500px] flex justify-center items-center p-4"
+                className="glass-card relative w-80 h-80 
+sm:w-[420px] sm:h-[420px] 
+lg:w-[560px] lg:h-[560px]
+ flex justify-center items-center p-4"
                 style={{
                   maskImage: "linear-gradient(to bottom, black 85%, transparent 100%)",
                   WebkitMaskImage: "linear-gradient(to bottom, black 85%, transparent 100%)"
@@ -72,7 +75,8 @@ function Home() {
                 <img
                   src="/profileImage.png"
                   alt="Rimjhim"
-                  className="relative z-10 w-full h-full object-contain drop-shadow-2xl"
+                  className="relative z-10 w-full h-full object-cover scale-110
+ drop-shadow-2xl"
                   loading="eager"
                 />
              

@@ -33,7 +33,7 @@ function Home() {
 
               {/* Hero heading */}
               <h1 className="hero-heading text-5xl sm:text-6xl md:text-7xl font-extrabold mb-6 leading-[1.1] tracking-tight">
-                <span className="text-gray-100 block">Full-Stack </span>
+                <span className="text-gray-100 block">Software </span>
                 <span className="text-blue-500 block">Developer</span>
               </h1>
 

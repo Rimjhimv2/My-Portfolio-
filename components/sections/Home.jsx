@@ -107,34 +107,45 @@ lg:w-[520px] lg:h-[520px]
 {/* Right Column: Profile Image */}
 {/* Right Column: Profile Image */}
 <div className="relative order-1 lg:order-2 flex justify-center lg:justify-end items-center">
-  <div
-    className="glass-card relative 
-    w-64 h-80
+<div
+  className="
+    glass-card relative
+    w-64 h-[22rem]
     sm:w-80 sm:h-96
     md:w-96 md:h-[28rem]
     lg:w-[520px] lg:h-[600px]
-    flex justify-center items-center 
+    flex justify-center items-center
     p-2 sm:p-4
-    overflow-hidden"
-    style={{
-      maskImage: "linear-gradient(to bottom, black 92%, transparent 100%)",
-      WebkitMaskImage: "linear-gradient(to bottom, black 92%, transparent 100%)"
-    }}
-  >
+    overflow-hidden
+  "
+
+
+  style={{
+    maskImage: "linear-gradient(to bottom, black 95%, transparent 100%)",
+    WebkitMaskImage: "linear-gradient(to bottom, black 95%, transparent 100%)",
+  }}
+>
+
     <div className="absolute w-[60%] h-[60%] bg-blue-500/20 rounded-full blur-[60px] animate-float"></div>
-    <img
-      src="/profileImage.png"
-      alt="Rimjhim"
-      className="relative z-10 
-      w-full h-full 
-      object-cover object-top
-      scale-100 sm:scale-105 lg:scale-110
-      drop-shadow-2xl
-      rounded-lg"
-      loading="eager"
-    />
+<img
+  src="/profileImage.png"
+  alt="Rimjhim"
+  className="
+    relative z-10
+    w-full h-full
+    object-cover
+    object-center
+    scale-100 sm:scale-105 lg:scale-110
+    drop-shadow-2xl
+    rounded-lg
+  "
+/>
+
+
+
   </div> 
 </div>
+
 
 </div>
            

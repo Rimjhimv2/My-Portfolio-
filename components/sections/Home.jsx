@@ -80,7 +80,7 @@ function Home() {
             </div>
 
             {/* Right Column: Profile Image */}
-            <div className="relative order-1 lg:order-2 flex justify-center lg:justify-end items-center">
+            {/* <div className="relative order-1 lg:order-2 flex justify-center lg:justify-end items-center">
               <div
                 className="glass-card relative w-72 h-72
 sm:w-[400px] sm:h-[400px]
@@ -101,7 +101,54 @@ lg:w-[520px] lg:h-[520px]
                   loading="eager"
                 />
              
-              </div>
+              </div> */}
+
+
+
+<div className="relative order-1 lg:order-2 flex justify-center lg:justify-end items-center">
+  <div
+    className="glass-card relative 
+    w-64 h-64
+    sm:w-80 sm:h-80
+    md:w-96 md:h-96
+    lg:w-[520px] lg:h-[520px]
+    flex justify-center items-center 
+    p-2 sm:p-4
+    overflow-hidden"
+    style={{
+      maskImage: "linear-gradient(to bottom, black 90%, transparent 100%)",
+      WebkitMaskImage: "linear-gradient(to bottom, black 90%, transparent 100%)"
+    }}
+  >
+    <div className="absolute w-[60%] h-[60%] bg-blue-500/20 rounded-full blur-[60px] animate-float"></div>
+    <img
+      src="/profileImage.png"
+      alt="Rimjhim"
+      className="relative z-10 
+      w-full h-full 
+      object-cover object-center
+      scale-105 sm:scale-110
+      drop-shadow-2xl
+      rounded-lg"
+      loading="eager"
+    />
+  </div> 
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </div>
             {/* Right Column: Profile Image */}
 {/* <div className="relative order-1 lg:order-2 flex justify-center lg:justify-end items-center">

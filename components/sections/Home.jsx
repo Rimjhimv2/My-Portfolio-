@@ -105,19 +105,20 @@ lg:w-[520px] lg:h-[520px]
 
 
 
-<div className="relative order-1 lg:order-2 flex justify-center lg:justify-end items-center">
+{/* Right Column: Profile Image */}
+<div className="relative order-1 lg:order-2 flex justify-center lg:justify-end items-center px-4 lg:px-0">
   <div
     className="glass-card relative 
-    w-64 h-64
-    sm:w-80 sm:h-80
-    md:w-96 md:h-96
-    lg:w-[520px] lg:h-[520px]
+    w-[280px] h-[320px]
+    sm:w-[340px] sm:h-[400px]
+    md:w-[380px] md:h-[440px]
+    lg:w-[480px] lg:h-[560px]
     flex justify-center items-center 
-    p-2 sm:p-4
-    overflow-hidden"
+    p-4
+    overflow-visible"
     style={{
-      maskImage: "linear-gradient(to bottom, black 90%, transparent 100%)",
-      WebkitMaskImage: "linear-gradient(to bottom, black 90%, transparent 100%)"
+      maskImage: "none",
+      WebkitMaskImage: "none"
     }}
   >
     <div className="absolute w-[60%] h-[60%] bg-blue-500/20 rounded-full blur-[60px] animate-float"></div>
@@ -126,15 +127,12 @@ lg:w-[520px] lg:h-[520px]
       alt="Rimjhim"
       className="relative z-10 
       w-full h-full 
-      object-cover object-center
-      scale-105 sm:scale-110
-      drop-shadow-2xl
-      rounded-lg"
+      object-contain
+      drop-shadow-2xl"
       loading="eager"
     />
   </div> 
 </div>
-
 
 
 

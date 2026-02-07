@@ -106,19 +106,20 @@ lg:w-[520px] lg:h-[520px]
 
 
 {/* Right Column: Profile Image */}
-<div className="relative order-1 lg:order-2 flex justify-center lg:justify-end items-center px-4 lg:px-0">
+{/* Right Column: Profile Image */}
+<div className="relative order-1 lg:order-2 flex justify-center lg:justify-end items-center">
   <div
     className="glass-card relative 
-    w-[280px] h-[320px]
-    sm:w-[340px] sm:h-[400px]
-    md:w-[380px] md:h-[440px]
-    lg:w-[480px] lg:h-[560px]
+    w-64 h-80
+    sm:w-80 sm:h-96
+    md:w-96 md:h-[28rem]
+    lg:w-[520px] lg:h-[600px]
     flex justify-center items-center 
-    p-4
-    overflow-visible"
+    p-2 sm:p-4
+    overflow-hidden"
     style={{
-      maskImage: "none",
-      WebkitMaskImage: "none"
+      maskImage: "linear-gradient(to bottom, black 92%, transparent 100%)",
+      WebkitMaskImage: "linear-gradient(to bottom, black 92%, transparent 100%)"
     }}
   >
     <div className="absolute w-[60%] h-[60%] bg-blue-500/20 rounded-full blur-[60px] animate-float"></div>
@@ -127,55 +128,18 @@ lg:w-[520px] lg:h-[520px]
       alt="Rimjhim"
       className="relative z-10 
       w-full h-full 
-      object-contain
-      drop-shadow-2xl"
+      object-cover object-top
+      scale-100 sm:scale-105 lg:scale-110
+      drop-shadow-2xl
+      rounded-lg"
       loading="eager"
     />
   </div> 
 </div>
 
+</div>
+           
 
-
-
-
-
-
-
-
-
-
-
-
-
-            </div>
-            {/* Right Column: Profile Image */}
-{/* <div className="relative order-1 lg:order-2 flex justify-center lg:justify-end items-center">
-  <div
-    className="
-      glass-card
-      relative
-      w-72 h-72
-      sm:w-96 sm:h-96
-      lg:w-[500px] lg:h-[500px]
-      rounded-full
-      overflow-hidden
-      flex justify-center items-center
-    "
-  >
-    
-    <div className="absolute inset-0 flex justify-center items-center">
-      <div className="w-[60%] h-[60%] bg-blue-500/20 rounded-full blur-[80px] animate-float"></div>
-    </div>
-
-    
-    <img
-      src="/profileImage.png"
-      alt="Rimjhim"
-      className="relative z-10 w-full h-full object-cover rounded-full"
-      loading="eager"
-    />
-  </div>
-</div> */}
 
 
         

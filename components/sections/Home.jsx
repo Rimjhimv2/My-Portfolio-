@@ -180,7 +180,7 @@ lg:w-[520px] lg:h-[520px]
 </div> */}
 
 
-          </div>
+        
         </Container>
       </Section>
     </ReviewOnScroll>

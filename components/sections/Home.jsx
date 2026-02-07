@@ -32,10 +32,30 @@ function Home() {
               </div>
 
               {/* Hero heading */}
-              <h1 className="hero-heading text-5xl sm:text-6xl md:text-7xl font-extrabold mb-6 leading-[1.1] tracking-tight">
+              {/* <h1 className="hero-heading text-5xl sm:text-6xl md:text-7xl font-extrabold mb-6 leading-[1.1] tracking-tight">
                 <span className="text-gray-100 block">Software </span>
                 <span className="text-blue-500 block">Developer</span>
-              </h1>
+              </h1> */}
+              {/* Hero heading */}
+<h1 className="hero-heading text-5xl sm:text-6xl md:text-7xl font-extrabold mb-6 leading-[1.1] tracking-tight">
+  <span className="text-gray-100 block">Software </span>
+  <span className="text-blue-500 block">Developer</span>
+</h1>
+
+{/* Available to Work Badge - ADD THIS */}
+<div className="flex justify-center mb-6">
+  <div className="inline-flex items-center gap-2 px-4 py-2 bg-green-50 dark:bg-green-900/20 
+                  border border-green-200 dark:border-green-800 rounded-full shadow-lg">
+    <span className="relative flex h-3 w-3">
+      <span className="animate-ping absolute inline-flex h-full w-full 
+                       rounded-full bg-green-400 opacity-75"></span>
+      <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+    </span>
+    <span className="text-sm font-semibold text-green-700 dark:text-green-400">
+      Available to Work
+    </span>
+  </div>
+</div>
 
               {/* Polished AI + Full-Stack intro */}
               <p className="text-gray-400 text-lg sm:text-xl leading-relaxed mb-8 max-w-lg font-light">

@@ -8,8 +8,10 @@ import Container from "../ui/Container";
 function Home() {
   return (
     <ReviewOnScroll>
-      <Section id="home" className="h-screen flex items-center justify-center relative pb-24">
-
+      <Section
+        id="home"
+        className="h-screen flex items-center justify-center relative pb-24"
+      >
         {/* Background blurred circles */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl"></div>
@@ -19,10 +21,9 @@ function Home() {
         <Container className="relative z-10 w-full max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
 
-            {/* Left Column: Intro & Buttons */}
+            {/* Left Column */}
             <div className="flex flex-col items-center lg:items-start text-center lg:text-left order-2 lg:order-1">
 
-              {/* Intro badge */}
               <div className="flex items-center gap-2 mb-6">
                 <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
                 <span className="text-blue-500 font-semibold tracking-widest text-sm uppercase">
@@ -30,38 +31,27 @@ function Home() {
                 </span>
               </div>
 
-              {/* Hero heading */}
-              {/* <h1 className="hero-heading text-5xl sm:text-6xl md:text-7xl font-extrabold mb-6 leading-[1.1] tracking-tight">
+              <h1 className="hero-heading text-5xl sm:text-6xl md:text-7xl font-extrabold mb-6 leading-[1.1] tracking-tight">
                 <span className="text-gray-100 block">Software </span>
                 <span className="text-blue-500 block">Developer</span>
-              </h1> */}
-              {/* Hero heading */}
-<h1 className="hero-heading text-5xl sm:text-6xl md:text-7xl font-extrabold mb-6 leading-[1.1] tracking-tight">
-  <span className="text-gray-100 block">Software </span>
-  <span className="text-blue-500 block">Developer</span>
-</h1>
+              </h1>
 
-{/* Available to Work Badge - ADD THIS */}
-<div className="flex justify-center mb-6">
-  <div className="inline-flex items-center gap-2 px-4 py-2 bg-green-50 dark:bg-green-900/20 
-                  border border-green-200 dark:border-green-800 rounded-full shadow-lg">
-    <span className="relative flex h-3 w-3">
-      <span className="animate-ping absolute inline-flex h-full w-full 
-                       rounded-full bg-green-400 opacity-75"></span>
-      <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
-    </span>
-    <span className="text-sm font-semibold text-green-700 dark:text-green-400">
-      Available to Work
-    </span>
-  </div>
-</div>
+              <div className="flex justify-center mb-6">
+                <div className="inline-flex items-center gap-2 px-4 py-2 bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-full shadow-lg">
+                  <span className="relative flex h-3 w-3">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+                  </span>
+                  <span className="text-sm font-semibold text-green-700 dark:text-green-400">
+                    Available to Work
+                  </span>
+                </div>
+              </div>
 
-              {/* Polished AI + Full-Stack intro */}
               <p className="text-gray-400 text-lg sm:text-xl leading-relaxed mb-8 max-w-lg font-light">
                 I specialize in building full-stack MERN applications and blending AI into web experiences. I craft intelligent tools and apps—from AI-powered analyzers to smart web platforms—that feel like magic ✨
               </p>
 
-              {/* Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
                 <a href="#projects" className="btn-primary w-full sm:w-auto px-8 py-3.5 rounded-xl text-center shadow-lg shadow-blue-500/20 transition-all hover:scale-105">
                   View Projects
@@ -78,81 +68,34 @@ function Home() {
               </div>
             </div>
 
-            {/* Right Column: Profile Image */}
-            {/* <div className="relative order-1 lg:order-2 flex justify-center lg:justify-end items-center">
-              <div
-                className="glass-card relative w-72 h-72
-sm:w-[400px] sm:h-[400px]
-lg:w-[520px] lg:h-[520px]
+            {/* ✅ Right Column — IMAGE MOVED DOWN */}
+            <div className="relative order-1 lg:order-2 flex justify-center lg:justify-end items-center mt-10 lg:mt-16">
 
- flex justify-center items-center p-4"
+              <div
+                className="glass-card relative
+                  w-64 h-[22rem]
+                  sm:w-80 sm:h-96
+                  md:w-96 md:h-[28rem]
+                  lg:w-[520px] lg:h-[600px]
+                  flex justify-center items-center
+                  p-2 sm:p-4
+                  overflow-hidden"
                 style={{
-                  maskImage: "linear-gradient(to bottom, black 85%, transparent 100%)",
-                  WebkitMaskImage: "linear-gradient(to bottom, black 85%, transparent 100%)"
+                  maskImage: "linear-gradient(to bottom, black 95%, transparent 100%)",
+                  WebkitMaskImage: "linear-gradient(to bottom, black 95%, transparent 100%)",
                 }}
               >
                 <div className="absolute w-[60%] h-[60%] bg-blue-500/20 rounded-full blur-[60px] animate-float"></div>
+
                 <img
                   src="/profileImage.png"
                   alt="Rimjhim"
-                  className="relative z-10 w-full h-full object-cover scale-110
- drop-shadow-2xl"
-                  loading="eager"
+                  className="relative z-10 w-full h-full object-cover object-center scale-100 sm:scale-105 lg:scale-110 drop-shadow-2xl rounded-lg"
                 />
-             
-              </div> */}
+              </div>
+            </div>
 
-
-
-{/* Right Column: Profile Image */}
-{/* Right Column: Profile Image */}
-<div className="relative order-1 lg:order-2 flex justify-center lg:justify-end items-center">
-<div
-  className="
-    glass-card relative
-    w-64 h-[22rem]
-    sm:w-80 sm:h-96
-    md:w-96 md:h-[28rem]
-    lg:w-[520px] lg:h-[600px]
-    flex justify-center items-center
-    p-2 sm:p-4
-    overflow-hidden
-  "
-
-
-  style={{
-    maskImage: "linear-gradient(to bottom, black 95%, transparent 100%)",
-    WebkitMaskImage: "linear-gradient(to bottom, black 95%, transparent 100%)",
-  }}
->
-
-    <div className="absolute w-[60%] h-[60%] bg-blue-500/20 rounded-full blur-[60px] animate-float"></div>
-<img
-  src="/profileImage.png"
-  alt="Rimjhim"
-  className="
-    relative z-10
-    w-full h-full
-    object-cover
-    object-center
-    scale-100 sm:scale-105 lg:scale-110
-    drop-shadow-2xl
-    rounded-lg
-  "
-/>
-
-
-
-  </div> 
-</div>
-
-
-</div>
-           
-
-
-
-        
+          </div>
         </Container>
       </Section>
     </ReviewOnScroll>

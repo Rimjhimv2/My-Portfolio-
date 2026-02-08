@@ -95,7 +95,9 @@ function Projects() {
 
     return (
         <ReviewOnScroll>
-            <Section id="projects">
+            {/* <Section id="projects"> */}
+            
+<Section id="projects" className="py-20">
                 <Container>
                     <h2 className="section-title mb-16">Featured Projects</h2>
 

@@ -12,41 +12,44 @@ import ExperienceCard from "../ExperienceCard";
 export default function Experience() {
   return (
     <ReviewOnScroll>
-      <Section id="experience">
-        <Container>
-          <h2 className="section-title mb-12 text-center">
-            Work Experience
-          </h2>
+ 
+      <div className="pt-24">
+        <Section id="experience">
+          <Container>
+            <h2 className="section-title mb-12 text-center">
+              Work Experience
+            </h2>
 
-          {/* Vertical Line */}
-          <div className="relative">
-            {/* <div className="absolute left-6 w-0.5 h-full bg-white/10 md:left-1/2 md:-translate-x-1/2" /> */}
-            <div className="
-  absolute 
-  left-4 
-  top-0 
-  w-0.5 
-  h-full 
-  bg-white/10
-  md:left-1/2 
-  md:-translate-x-1/2
-" />
+            
+            <div className="relative">
+              <div
+                className="
+                  absolute 
+                  left-4 
+                  top-0 
+                  w-0.5 
+                  h-full 
+                  bg-white/10
+                  md:left-1/2 
+                  md:-translate-x-1/2
+                "
+              />
 
-
-            {/* Timeline Cards */}
-            <div className="space-y-16">
-              {experiencesData.map((exp, index) => (
-                <ExperienceCard
-                  key={index}
-                  exp={exp}
-                  index={index}
-                />
-              ))}
+             
+              <div className="space-y-16">
+                {experiencesData.map((exp, index) => (
+                  <ExperienceCard
+                    key={index}
+                    exp={exp}
+                    index={index}
+                  />
+                ))}
+              </div>
             </div>
-          </div>
 
-        </Container>
-      </Section>
+          </Container>
+        </Section>
+      </div>
     </ReviewOnScroll>
   );
 }

@@ -1,14 +1,14 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY!);
+const resend = new Resend(process.env.RESEND_API_KEY);
 
-export async function POST(req: Request) {
+export async function POST(req) {
   try {
     const body = await req.json();
     const { name, email, message } = body;
 
-    // Basic validation (important ⭐)
+    // Validation
     if (!name || !email || !message) {
       return NextResponse.json(
         { error: "Missing fields" },
@@ -17,10 +17,10 @@ export async function POST(req: Request) {
     }
 
     const data = await resend.emails.send({
-      from: "Portfolio <onboarding@resend.dev>", // testing sender OK
-      to: ["rimjhimv543@gmail.com"],              // 👈 CHANGE THIS
+      from: "Portfolio <onboarding@resend.dev>",
+      to: ["rimjhimv543@gmail.com"],
       subject: `New message from ${name}`,
-      reply_to: email, // ⭐ so you can reply directly
+      reply_to: email,
       html: `
         <h2>Portfolio Contact</h2>
         <p><strong>Name:</strong> ${name}</p>
@@ -34,6 +34,7 @@ export async function POST(req: Request) {
 
   } catch (error) {
     console.error(error);
+
     return NextResponse.json(
       { error: "Email failed" },
       { status: 500 }

@@ -52,13 +52,21 @@ function ProjectDetails() {
           </div>
 
           {/* 3. Hero Image (Wide & Clean) */}
-          <div className="w-full aspect-video rounded-2xl overflow-hidden border border-white/10 mb-16 bg-black/30 relative shadow-[0_8px_32px_0_rgba(0,0,0,0.6)]">
+          {/* <div className="w-full aspect-video rounded-2xl overflow-hidden border border-white/10 mb-16 bg-black/30 relative shadow-[0_8px_32px_0_rgba(0,0,0,0.6)]">
             <img
               src={project.image}
               alt={project.title}
               className="w-full h-full object-cover"
             />
-          </div>
+          </div> */}
+          <div className="w-full aspect-video rounded-2xl overflow-hidden border border-white/10 mb-16 bg-black/30 relative shadow-[0_8px_32px_0_rgba(0,0,0,0.6)]">
+  <img
+    src={project.image}
+    alt={project.title}
+    className="w-full h-full object-contain"
+  />
+</div>
+
 
           {/* 4. Content Grid (Article + Sidebar) */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">

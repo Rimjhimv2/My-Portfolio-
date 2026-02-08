@@ -5,46 +5,72 @@ import ReviewOnScroll from "../ReviewOnScroll";
 import Section from "../ui/Section";
 import Container from "../ui/Container";
 import { toast } from "sonner";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 import { Github, Linkedin, Mail, Twitter, MapPin, Send } from "lucide-react";
 import { Peerlist } from "@/lib/icon";
 
 function Contact() {
     const [formData, setFormData] = useState({ name: "", email: "", message: "" });
 
-    const SERVICE_ID = process.env.NEXT_PUBLIC_SERVICE_ID;
-    const TEMPLATE_ID = process.env.NEXT_PUBLIC_TEMPLATE_ID;
-    const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
+    // const SERVICE_ID = process.env.NEXT_PUBLIC_SERVICE_ID;
+    // const TEMPLATE_ID = process.env.NEXT_PUBLIC_TEMPLATE_ID;
+    // const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
 
-     useEffect(() => {
-  if (PUBLIC_KEY) {
-    emailjs.init(PUBLIC_KEY);
-  }
-}, [PUBLIC_KEY]);
+//      useEffect(() => {
+//   if (PUBLIC_KEY) {
+//     emailjs.init(PUBLIC_KEY);
+//   }
+// }, [PUBLIC_KEY]);
    
-    const handleSubmit = (e) => {
+//     const handleSubmit = (e) => {
+//   e.preventDefault();
+
+//   emailjs
+//     .send(
+//       SERVICE_ID,
+//       TEMPLATE_ID,
+//       {
+//         from_name: formData.name,
+//         from_email: formData.email,
+//         message: formData.message,
+//       },
+//       PUBLIC_KEY
+//     )
+//     .then(() => {
+//       toast.success("Message Sent Successfully!");
+//       setFormData({ name: "", email: "", message: "" });
+//     })
+//     .catch((error) => {
+//       console.error("EmailJS error:", error);
+//       toast.error("Something went wrong, Please try again.");
+//     });
+// };
+
+
+const handleSubmit = async (e) => {
   e.preventDefault();
 
-  emailjs
-    .send(
-      SERVICE_ID,
-      TEMPLATE_ID,
-      {
-        from_name: formData.name,
-        from_email: formData.email,
-        message: formData.message,
+  try {
+    const res = await fetch("/api/send", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
       },
-      PUBLIC_KEY
-    )
-    .then(() => {
+      body: JSON.stringify(formData),
+    });
+
+    if (res.ok) {
       toast.success("Message Sent Successfully!");
       setFormData({ name: "", email: "", message: "" });
-    })
-    .catch((error) => {
-      console.error("EmailJS error:", error);
-      toast.error("Something went wrong, Please try again.");
-    });
+    } else {
+      toast.error("Failed to send message");
+    }
+  } catch (err) {
+    console.error(err);
+    toast.error("Something went wrong");
+  }
 };
+
 
 
     const socialLinks = [

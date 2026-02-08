@@ -110,7 +110,7 @@ function Projects() {
                                            w-full"
                             >
                                 {/* Image Section */}
-                                <div className="relative overflow-hidden group">
+                                {/* <div className="relative overflow-hidden group">
                                     <img
                                         src={project.image}
                                         alt={project.title}
@@ -121,7 +121,22 @@ function Projects() {
                                         className="absolute inset-0 bg-gradient-to-t 
                                                    from-black/80 via-black/20 to-transparent"
                                     />
-                                </div>
+                                </div> */}
+
+                                {/* Image Section */}
+<div className="relative w-full aspect-[16/9] overflow-hidden group bg-black/40">
+  <img
+    src={project.image}
+    alt={project.title}
+    className="w-full h-full object-contain 
+               group-hover:scale-105 transition-transform duration-500"
+  />
+  <div
+    className="absolute inset-0 bg-gradient-to-t 
+               from-black/70 via-black/30 to-transparent"
+  />
+</div>
+
 
                                 <div className="p-8 flex flex-col flex-grow">
                                     <h3 className="text-2xl font-bold mb-3 text-white">
